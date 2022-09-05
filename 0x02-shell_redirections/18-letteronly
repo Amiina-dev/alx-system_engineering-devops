@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'Ac' 'Ze'
+grep ^[[:alpha:]]] /etc/ssh/sshd_config
