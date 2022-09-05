@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -pe 'print if $. == -1' iacta
+awk 'END { print }' iacta
