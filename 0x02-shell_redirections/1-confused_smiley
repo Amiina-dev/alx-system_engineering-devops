@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "\"(Ôo)'" > cfsm; cat cfsm
+echo "\"(Ôo)'"
