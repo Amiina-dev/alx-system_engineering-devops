@@ -1,1 +1,1 @@
-THIS IS A NONEMPTY README
+This is a nonempty README
