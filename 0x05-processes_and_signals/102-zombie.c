@@ -23,17 +23,20 @@ int infinite_while(void)
 
 int main (void)
 {
-	int i;
-	pid_t sombie;
+	int children = 0;
+	pid_t pid;
 
-	for (i = 0; i < 5; i++)
+	while (children < 5)
 	{
-		zombie = fork();
-		if (!zombie)
-			return (0);
-		printf("Zombie process created, PID: %d\n", zombie);
+		pid = fork();
+		if (!pid)
+			break;
+		printf("Zombie process created, PID: %i\n", (int)pid);
+		children++;
 	}
-
-	infinite_while();
+	id (pid != 0)
+	{
+		infinite_while();
+	}
 	return (0);
 }
