@@ -1,4 +1,4 @@
-#!/usr/bin/envv ruby
+#!/usr/bin/env ruby
 # regex to match the given cases
 
 puts ARGV[0].scan(ht?tn/).join
